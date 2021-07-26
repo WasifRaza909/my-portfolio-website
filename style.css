@@ -193,7 +193,7 @@ a {
   /* width: 50%; */
 }
 
-.showcase-flex-right h1 {
+.showcase-flex-right h2 {
   font-size: 50px;
 }
 
@@ -206,9 +206,10 @@ a {
   background-color: #000000;
   color: #ffffff;
   padding: 2rem 0;
+  height: 100%;
 }
 
-.portfolio h1 {
+.portfolio h2 {
   text-align: center;
   font-size: 50px;
   letter-spacing: 2px;
@@ -220,4 +221,51 @@ a {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 40px 20px;
+}
+
+.portfolio .card {
+  background-color: #ffffff;
+  height: fit-content;
+  color: #000000;
+}
+
+.portfolio .card img {
+  width: 100%;
+  border-top: 2px solid #000000;
+  border-bottom: 2px solid #000000;
+}
+
+.portfolio .card .card-content {
+  padding: 1rem 0.5rem;
+}
+
+.portfolio .card .card-content h3 {
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.portfolio .card .card-content .checks {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.badges {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.badge {
+  background-color: #000000;
+  color: #ffffff;
+  width: 22%;
+  font-size: 12px;
+  text-align: center;
+  border-radius: 200px;
+  padding: 0.4rem;
+}
+
+.portfolio .card .card-content .links {
+  display: flex;
+  justify-content: space-between;
 }
