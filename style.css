@@ -8,6 +8,10 @@
 }
 
 * {
+  scroll-behavior: smooth;
+}
+
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -227,6 +231,8 @@ a {
   background-color: #ffffff;
   height: fit-content;
   color: #000000;
+  border-radius: 0px 0px 4px 4px;
+  height: 100%;
 }
 
 .portfolio .card img {
@@ -236,17 +242,26 @@ a {
 }
 
 .portfolio .card .card-content {
-  padding: 1rem 0.5rem;
+  padding: 1rem 0.8rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .portfolio .card .card-content h3 {
   text-align: center;
   text-transform: uppercase;
+  margin-bottom: 1rem;
 }
 
 .portfolio .card .card-content .checks {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
+  margin-bottom: 1rem;
+}
+
+.portfolio .card .card-content .created-with {
+  margin-bottom: 1rem;
 }
 
 .badges {
@@ -258,7 +273,7 @@ a {
 .badge {
   background-color: #000000;
   color: #ffffff;
-  width: 22%;
+  width: 24%;
   font-size: 12px;
   text-align: center;
   border-radius: 200px;
