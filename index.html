@@ -14,309 +14,407 @@
     <link rel="stylesheet" href="style.css" />
     <title>Wasif Raza</title>
   </head>
-  <body>
-    <header id="home">
-      <!-- Navbar -->
-      <nav class="navbar">
-        <div class="navbar-top">
-          <div class="container flex navbar-top-flex">
-            <div class="email">
-              <p><i class="fas fa-envelope"></i> wasifraza909@gmail.com</p>
-            </div>
-            <div class="phone">
-              <i class="fas fa-phone-alt"> +92 3322489190</i>
-            </div>
-          </div>
-        </div>
-        <div class="navbar-bottom">
-          <div class="flex nav-flex container">
-            <div class="nav-flex-left">
-              <h1 class="logo">
-                <a href="#">@Wasif Raza</a>
-              </h1>
-            </div>
-            <div class="nav-flex-center">
-              <ul class="nav-list flex">
-                <li class="nav-list-items">
-                  <a href="#home" class="nav-links">Home</a>
-                </li>
-                <li class="nav-list-items">
-                  <a href="#portfolio" class="nav-links">Portfolio</a>
-                </li>
-                <li class="nav-list-items">
-                  <a href="#about" class="nav-links">About</a>
-                </li>
-                <li class="nav-list-items">
-                  <a href="#contact" class="nav-links">Contact</a>
-                </li>
-              </ul>
-            </div>
-            <div class="nav-flex-right flex">
-              <!-- <i class="fa fa-arrow-right arrow-icon" aria-hidden="true"></i> -->
-              <button class="btn btn-contact">
-                <i class="fab fa-whatsapp"></i> Let's Talk
-              </button>
-            </div>
-          </div>
-        </div>
-      </nav>
 
-      <!-- Showcase -->
-      <section class="showcase">
-        <div class="container">
-          <div class="showcase-flex flex">
-            <div class="showcase-flex-left">
-              <img src="./images/img-3.png" alt="Profile Picture" srcset="" />
+  <body>
+    <main>
+      <header id="welcome-section">
+        <!-- Navbar -->
+        <nav class="navbar" id="navbar">
+          <div class="navbar-top">
+            <div class="container flex navbar-top-flex">
+              <div class="email">
+                <p><i class="fas fa-envelope"></i> wasifraza909@gmail.com</p>
+              </div>
+              <div class="phone">
+                <i class="fas fa-phone-alt"> +92 3322489190</i>
+              </div>
             </div>
-            <div class="showcase-flex-right">
-              <h2>My name is Wasif Raza</h2>
-              <p>Frontend Website Developer</p>
+          </div>
+          <div class="navbar-bottom">
+            <div class="flex nav-flex container">
+              <div class="nav-flex-left">
+                <h1 class="logo">
+                  <a href="#">@Wasif Raza</a>
+                </h1>
+              </div>
+              <div class="nav-flex-center">
+                <ul class="nav-list flex">
+                  <li class="nav-list-items">
+                    <a href="#home" class="nav-links">Home</a>
+                  </li>
+                  <li class="nav-list-items">
+                    <a href="#projects" class="nav-links">Portfolio</a>
+                  </li>
+                  <li class="nav-list-items">
+                    <a href="#about" class="nav-links">About</a>
+                  </li>
+                  <li class="nav-list-items">
+                    <a href="#contact" class="nav-links">Contact</a>
+                  </li>
+                </ul>
+              </div>
+              <div class="nav-flex-right flex">
+                <!-- <i class="fa fa-arrow-right arrow-icon" aria-hidden="true"></i> -->
+                <button class="btn btn-contact">
+                  <i class="fab fa-whatsapp"></i> Let's Talk
+                </button>
+              </div>
+            </div>
+          </div>
+        </nav>
+
+        <!-- Showcase -->
+        <section class="showcase" id="home">
+          <div class="container">
+            <div class="showcase-flex flex">
+              <div class="showcase-flex-left">
+                <img
+                  src="./images/profile.png"
+                  alt="Profile Picture"
+                  srcset=""
+                />
+              </div>
+              <div class="showcase-flex-right">
+                <h2>My name is Wasif Raza</h2>
+                <p>Frontend Website Developer</p>
+              </div>
+            </div>
+          </div>
+        </section>
+      </header>
+
+      <!-- Portfolio -->
+      <section class="portfolio" id="projects">
+        <div class="container">
+          <h2>My Portfolio</h2>
+          <div class="cards">
+            <!-- First Card -->
+            <div class="card project-tile">
+              <img src="./images/housing.png" alt="Housing" />
+              <div class="card-content">
+                <h3>Housing Design Website</h3>
+                <div class="checks">
+                  <p>Responsive: <i class="fas fa-check"></i></p>
+                  <p>Dynamic: <i class="fas fa-check"></i></p>
+                  <p>Slider: <i class="fas fa-check"></i></p>
+                  <p>Scroll Animation: <i class="fas fa-check"></i></p>
+                </div>
+                <div class="created-with">
+                  <h4>Created with:</h4>
+                  <div class="badges">
+                    <span class="badge">HTML</span>
+                    <span class="badge">CSS</span>
+                    <span class="badge">Bootstrap 4</span>
+                    <span class="badge">Javascript</span>
+                  </div>
+                </div>
+                <div class="links">
+                  <div class="code">
+                    <a
+                      id="profile-link"
+                      href="http://github.com/wasifraza909/bootstrap-4-housing-website-frontend"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <i class="fab fa-github"></i> Code
+                    </a>
+                  </div>
+                  <div class="website-link">
+                    <a href="https://housing909.netlify.app" target="_blank"
+                      >Go to Website
+                      <i class="fas fa-arrow-right"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Second Card -->
+            <div class="card">
+              <img src="./images/extreme.png" alt="Housing" />
+              <div class="card-content">
+                <h3>Extreme Design Website</h3>
+                <div class="checks">
+                  <p>Responsive: <i class="fas fa-check"></i></p>
+                  <p>Dynamic: <i class="fas fa-check"></i></p>
+                  <!-- <p>Scroll Animation: <i class="fas fa-check"></i></p> -->
+                </div>
+                <div class="created-with">
+                  <h4>Created with:</h4>
+                  <div class="badges">
+                    <span class="badge">HTML</span>
+                    <span class="badge">CSS</span>
+                    <span class="badge">Bootstrap 5</span>
+                    <span class="badge">Javascript</span>
+                  </div>
+                </div>
+                <div class="links">
+                  <div class="code">
+                    <a
+                      href="https://github.com/WasifRaza909/bootstrap-5-extreme-website-frontend"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <i class="fab fa-github"></i> Code
+                    </a>
+                  </div>
+                  <div class="website-link">
+                    <a href="https://extreme909.netlify.app" target="_blank"
+                      >Go to Website
+                      <i class="fas fa-arrow-right"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Third Card -->
+            <div class="card">
+              <img src="./images/bookmark.png" alt="Housing" />
+              <div class="card-content">
+                <h3>Bookmark Website</h3>
+                <div class="checks">
+                  <p>Responsive: <i class="fas fa-check"></i></p>
+                  <p>Dynamic: <i class="fas fa-check"></i></p>
+                  <p>Slider: <i class="fas fa-check"></i></p>
+                  <p>Scroll Animation: <i class="fas fa-check"></i></p>
+                </div>
+                <div class="created-with">
+                  <h4>Created with:</h4>
+                  <div class="badges">
+                    <span class="badge">HTML</span>
+                    <span class="badge">CSS</span>
+                    <span class="badge">Tailwind CSS</span>
+                    <span class="badge">Javascript</span>
+                  </div>
+                </div>
+                <div class="links">
+                  <div class="code">
+                    <a
+                      href="https://github.com/WasifRaza909/tailwindcss-bookmark-website"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <i class="fab fa-github"></i> Code
+                    </a>
+                  </div>
+                  <div class="website-link">
+                    <a href="https://bookmark909.netlify.app" target="_blank"
+                      >Go to Website
+                      <i class="fas fa-arrow-right"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Fourth Card -->
+            <div class="card">
+              <img src="./images/estatezilla.png" alt="Housing" />
+              <div class="card-content">
+                <h3>Estatezilla</h3>
+                <div class="checks">
+                  <p>Responsive: <i class="fas fa-check"></i></p>
+                  <p>Dynamic: <i class="fas fa-check"></i></p>
+                  <p>Slider: <i class="fas fa-check"></i></p>
+                  <p>Scroll Animation: <i class="fas fa-check"></i></p>
+                </div>
+                <div class="created-with">
+                  <h4>Created with:</h4>
+                  <div class="badges">
+                    <span class="badge">HTML</span>
+                    <span class="badge">CSS</span>
+                    <span class="badge">Tailwind CSS</span>
+                    <span class="badge">Javascript</span>
+                  </div>
+                </div>
+                <div class="links">
+                  <div class="code">
+                    <a
+                      href="http://github.com/wasifraza909/bootstrap-4-housing-website-frontend"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <i class="fab fa-github"></i> Code
+                    </a>
+                  </div>
+                  <div class="website-link">
+                    <a href="https://estatezilla909.vercel.app" target="_blank"
+                      >Go to Website
+                      <i class="fas fa-arrow-right"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Third Card -->
+            <div class="card">
+              <img src="./images/bookmark.png" alt="Housing" />
+              <div class="card-content">
+                <h3>Bookmark Website</h3>
+                <div class="checks">
+                  <p>Responsive: <i class="fas fa-check"></i></p>
+                  <p>Dynamic: <i class="fas fa-check"></i></p>
+                  <p>Slider: <i class="fas fa-check"></i></p>
+                  <p>Scroll Animation: <i class="fas fa-check"></i></p>
+                </div>
+                <div class="created-with">
+                  <h4>Created with:</h4>
+                  <div class="badges">
+                    <span class="badge">HTML</span>
+                    <span class="badge">CSS</span>
+                    <span class="badge">Tailwind CSS</span>
+                    <span class="badge">Javascript</span>
+                  </div>
+                </div>
+                <div class="links">
+                  <div class="code">
+                    <a
+                      href="http://github.com/wasifraza909/bootstrap-4-housing-website-frontend"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <i class="fab fa-github"></i> Code
+                    </a>
+                  </div>
+                  <div class="website-link">
+                    <a href="https://housing909.netlify.app" target="_blank"
+                      >Go to Website
+                      <i class="fas fa-arrow-right"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Fourth Card -->
+            <div class="card">
+              <img src="./images/bookmark.png" alt="Housing" />
+              <div class="card-content">
+                <h3>Bookmark Website</h3>
+                <div class="checks">
+                  <p>Responsive: <i class="fas fa-check"></i></p>
+                  <p>Dynamic: <i class="fas fa-check"></i></p>
+                  <p>Slider: <i class="fas fa-check"></i></p>
+                  <p>Scroll Animation: <i class="fas fa-check"></i></p>
+                </div>
+                <div class="created-with">
+                  <h4>Created with:</h4>
+                  <div class="badges">
+                    <span class="badge">HTML</span>
+                    <span class="badge">CSS</span>
+                    <span class="badge">Tailwind CSS</span>
+                    <span class="badge">Javascript</span>
+                  </div>
+                </div>
+                <div class="links">
+                  <div class="code">
+                    <a
+                      href="http://github.com/wasifraza909/bootstrap-4-housing-website-frontend"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <i class="fab fa-github"></i> Code
+                    </a>
+                  </div>
+                  <div class="website-link">
+                    <a href="https://housing909.netlify.app" target="_blank"
+                      >Go to Website
+                      <i class="fas fa-arrow-right"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
       </section>
-    </header>
 
-    <!-- Portfolio -->
-    <section class="portfolio" id="portfolio">
-      <div class="container">
-        <h2>My Portfolio</h2>
-        <div class="cards">
-          <!-- First Card -->
-          <div class="card">
-            <img src="./images/housing.png" alt="Housing" />
-            <div class="card-content">
-              <h3>Housing Design Website</h3>
-              <div class="checks">
-                <p>Responsive: <i class="fas fa-check"></i></p>
-                <p>Dynamic: <i class="fas fa-check"></i></p>
-                <p>Slider: <i class="fas fa-check"></i></p>
-                <p>Scroll Animation: <i class="fas fa-check"></i></p>
-              </div>
-              <div class="created-with">
-                <h4>Created with:</h4>
-                <div class="badges">
-                  <span class="badge">HTML</span>
-                  <span class="badge">CSS</span>
-                  <span class="badge">Bootstrap 4</span>
-                  <span class="badge">Javascript</span>
-                </div>
-              </div>
-              <div class="links">
-                <div class="code">
-                  <a
-                    href="http://github.com/wasifraza909/bootstrap-4-housing-website-frontend"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    <i class="fab fa-github"></i> Code
-                  </a>
-                </div>
-                <div class="website-link">
-                  <a href="https://housing909.netlify.app" target="_blank"
-                    >Go to Website
-                    <i class="fas fa-arrow-right"></i>
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
-          <!-- Second Card -->
-          <div class="card">
-            <img src="./images/extreme.png" alt="Housing" />
-            <div class="card-content">
-              <h3>Extreme Design Website</h3>
-              <div class="checks">
-                <p>Responsive: <i class="fas fa-check"></i></p>
-                <p>Dynamic: <i class="fas fa-check"></i></p>
-                <!-- <p>Scroll Animation: <i class="fas fa-check"></i></p> -->
-              </div>
-              <div class="created-with">
-                <h4>Created with:</h4>
-                <div class="badges">
-                  <span class="badge">HTML</span>
-                  <span class="badge">CSS</span>
-                  <span class="badge">Bootstrap 5</span>
-                  <span class="badge">Javascript</span>
-                </div>
-              </div>
-              <div class="links">
-                <div class="code">
-                  <a
-                    href="http://github.com/wasifraza909/bootstrap-4-housing-website-frontend"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    <i class="fab fa-github"></i> Code
-                  </a>
-                </div>
-                <div class="website-link">
-                  <a href="https://housing909.netlify.app" target="_blank"
-                    >Go to Website
-                    <i class="fas fa-arrow-right"></i>
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
-          <!-- Third Card -->
-          <div class="card">
-            <img src="./images/bookmark.png" alt="Housing" />
-            <div class="card-content">
-              <h3>Bookmark Website</h3>
-              <div class="checks">
-                <p>Responsive: <i class="fas fa-check"></i></p>
-                <p>Dynamic: <i class="fas fa-check"></i></p>
-                <p>Slider: <i class="fas fa-check"></i></p>
-                <p>Scroll Animation: <i class="fas fa-check"></i></p>
-              </div>
-              <div class="created-with">
-                <h4>Created with:</h4>
-                <div class="badges">
-                  <span class="badge">HTML</span>
-                  <span class="badge">CSS</span>
-                  <span class="badge">Tailwind CSS</span>
-                  <span class="badge">Javascript</span>
-                </div>
-              </div>
-              <div class="links">
-                <div class="code">
-                  <a
-                    href="http://github.com/wasifraza909/bootstrap-4-housing-website-frontend"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    <i class="fab fa-github"></i> Code
-                  </a>
-                </div>
-                <div class="website-link">
-                  <a href="https://housing909.netlify.app" target="_blank"
-                    >Go to Website
-                    <i class="fas fa-arrow-right"></i>
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
-          <!-- Fourth Card -->
-          <div class="card">
-            <img src="./images/estatezilla.png" alt="Housing" />
-            <div class="card-content">
-              <h3>Estatezilla</h3>
-              <div class="checks">
-                <p>Responsive: <i class="fas fa-check"></i></p>
-                <p>Dynamic: <i class="fas fa-check"></i></p>
-                <p>Slider: <i class="fas fa-check"></i></p>
-                <p>Scroll Animation: <i class="fas fa-check"></i></p>
-              </div>
-              <div class="created-with">
-                <h4>Created with:</h4>
-                <div class="badges">
-                  <span class="badge">HTML</span>
-                  <span class="badge">CSS</span>
-                  <span class="badge">Tailwind CSS</span>
-                  <span class="badge">Javascript</span>
-                </div>
-              </div>
-              <div class="links">
-                <div class="code">
-                  <a
-                    href="http://github.com/wasifraza909/bootstrap-4-housing-website-frontend"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    <i class="fab fa-github"></i> Code
-                  </a>
-                </div>
-                <div class="website-link">
-                  <a href="https://housing909.netlify.app" target="_blank"
-                    >Go to Website
-                    <i class="fas fa-arrow-right"></i>
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
-          <!-- Third Card -->
-          <div class="card">
-            <img src="./images/bookmark.png" alt="Housing" />
-            <div class="card-content">
-              <h3>Bookmark Website</h3>
-              <div class="checks">
-                <p>Responsive: <i class="fas fa-check"></i></p>
-                <p>Dynamic: <i class="fas fa-check"></i></p>
-                <p>Slider: <i class="fas fa-check"></i></p>
-                <p>Scroll Animation: <i class="fas fa-check"></i></p>
-              </div>
-              <div class="created-with">
-                <h4>Created with:</h4>
-                <div class="badges">
-                  <span class="badge">HTML</span>
-                  <span class="badge">CSS</span>
-                  <span class="badge">Tailwind CSS</span>
-                  <span class="badge">Javascript</span>
-                </div>
-              </div>
-              <div class="links">
-                <div class="code">
-                  <a
-                    href="http://github.com/wasifraza909/bootstrap-4-housing-website-frontend"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    <i class="fab fa-github"></i> Code
-                  </a>
-                </div>
-                <div class="website-link">
-                  <a href="https://housing909.netlify.app" target="_blank"
-                    >Go to Website
-                    <i class="fas fa-arrow-right"></i>
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
-          <!-- Third Card -->
-          <div class="card">
-            <img src="./images/bookmark.png" alt="Housing" />
-            <div class="card-content">
-              <h3>Bookmark Website</h3>
-              <div class="checks">
-                <p>Responsive: <i class="fas fa-check"></i></p>
-                <p>Dynamic: <i class="fas fa-check"></i></p>
-                <p>Slider: <i class="fas fa-check"></i></p>
-                <p>Scroll Animation: <i class="fas fa-check"></i></p>
-              </div>
-              <div class="created-with">
-                <h4>Created with:</h4>
-                <div class="badges">
-                  <span class="badge">HTML</span>
-                  <span class="badge">CSS</span>
-                  <span class="badge">Tailwind CSS</span>
-                  <span class="badge">Javascript</span>
-                </div>
-              </div>
-              <div class="links">
-                <div class="code">
-                  <a
-                    href="http://github.com/wasifraza909/bootstrap-4-housing-website-frontend"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    <i class="fab fa-github"></i> Code
-                  </a>
-                </div>
-                <div class="website-link">
-                  <a href="https://housing909.netlify.app" target="_blank"
-                    >Go to Website
-                    <i class="fas fa-arrow-right"></i>
-                  </a>
-                </div>
-              </div>
+      <!-- About -->
+      <section id="about">
+        <div class="container">
+          <h2>About Me</h2>
+          <div class="about-flex">
+            <div class="about-flex-left"></div>
+            <div class="about-flex-right">
+              <p>
+                I am a passionate
+                <strong>self-taught Front End Web Developer</strong> with good
+                knowledge of building static and dynamic Front-end applications.
+              </p>
+              <p>My skills set includes</p>
+
+              <ul>
+                <li>- <strong>HTML5</strong> -</li>
+                <li>- <strong>CSS3</strong> -</li>
+                <li>- <strong>Javascript</strong> -</li>
+                <li>- <strong>Bootstrap 5</strong> -</li>
+                <li>- <strong>Tailwind CSS</strong> -</li>
+                <li>- <strong>React</strong> -</li>
+                <li>- <strong>React Bootstrap</strong> -</li>
+              </ul>
+
+              <p>
+                I've little knowledge of some
+                <strong>backend technologies</strong>, too like
+              </p>
+
+              <ul>
+                <li>- <strong>Node.js</strong> -</li>
+                <li>- <strong>Express</strong> -</li>
+                <li>- <strong>Strapi</strong> -</li>
+              </ul>
+
+              <p>
+                I have worked on numerous projects and gained experience in
+                developing <strong>web-based software</strong> and
+                <strong>web services</strong>, and I look forward to learning
+                new things and improve my knowledge
+              </p>
             </div>
           </div>
         </div>
-      </div>
-    </section>
+      </section>
+      <!-- Contact -->
+      <section id="contact">
+        <div class="container">
+          <h2>Contact Me</h2>
+          <div class="contact-grid">
+            <div class="social-profiles">
+              <i class="fas fa-share-alt share-icon"></i>
+              <h3>Social Profiles</h3>
+              <div class="">
+                <a class="link" href="">
+                  <i class="fab fa-whatsapp"></i>
+                </a>
+                <a class="link" href="">
+                  <i class="fab fa-facebook-f"></i>
+                </a>
+                <a class="link" href=""><i class="fab fa-instagram"></i></a>
+                <a class="link" href=""><i class="fab fa-linkedin-in"></i></a>
+              </div>
+            </div>
+            <div class="email-me">
+              <a class="link" href="">
+                <i class="fas fa-envelope"></i>
+              </a>
+              <h3>Email Me</h3>
+              wasifraza909@gmail.com
+            </div>
+            <div class="call-me">
+              <a class="link" href="">
+                <i class="fas fa-phone-alt"></i>
+              </a>
+              <h3>Call Me</h3>
+              +92 3322489190
+            </div>
+          </div>
+        </div>
+      </section>
+      <footer class="footer">
+        <div class="container">
+          <p>Copyright &copy; <span id="year"></span> All rights reserved</p>
+          <p>Created By Wasif Raza</p>
+        </div>
+      </footer>
+    </main>
+
+    <script src="./app.js"></script>
   </body>
 </html>
