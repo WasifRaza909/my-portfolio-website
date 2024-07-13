@@ -3,7 +3,9 @@
 import { Canvas } from "@react-three/fiber"
 import { Suspense } from "react"
 import Model from "./Model"
-import { Center } from "@react-three/drei"
+import { Center, OrbitControls } from "@react-three/drei"
+
+
 const Scene = () => {
   return (
     <Canvas>
@@ -13,7 +15,7 @@ const Scene = () => {
         <Suspense fallback={null}>
             <Model/>
         </Suspense>
-
+    <OrbitControls />
         </Center>
     </Canvas>
   )
