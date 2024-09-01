@@ -9,14 +9,13 @@ import { Center, OrbitControls } from "@react-three/drei"
 const Scene = () => {
   return (
     <Canvas>
-        <directionalLight position={[-10, -10, 10]} intensity={4} />
-        <Center>
-
-        <Suspense fallback={null}>
+        <directionalLight position={[-10, -10, 10]} intensity={5} />
+        <ambientLight intensity={3}/>
+        <Suspense fallback={"<h1>Loading...</h1>"}>
             <Model/>
         </Suspense>
-    <OrbitControls />
-        </Center>
+    <OrbitControls enableZoom={false}  maxPolarAngle={Math.PI / 2}
+        minPolarAngle={Math.PI / 2} />
     </Canvas>
   )
 }
