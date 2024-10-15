@@ -16,17 +16,16 @@ const Model = () => {
     },[])
     useFrame(() => {
         if (groupRef.current) {
-            console.log(groupRef.current)
-            groupRef.current.rotation.y += 0.02
+            groupRef.current.rotation.y += 0.015
         }
     })
 
     return (
             <group
                 ref={groupRef}
-                scale={[0.3, 0.3, 0.3]}
+                scale={[0.42, 0.42, 0.42]}
                 rotation={[0,0, 0]}
-                position={[0.1, 0, 0]}
+                position={[0, 0, 0]}
             >
                          <Center>
                             

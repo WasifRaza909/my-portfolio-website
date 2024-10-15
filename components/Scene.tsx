@@ -10,7 +10,8 @@ const Scene = () => {
   return (
     <Canvas>
         <directionalLight position={[-10, -10, 10]} intensity={5} />
-        <ambientLight intensity={3}/>
+        <ambientLight intensity={0.2}/>
+        <spotLight intensity={0.2}/>
         <Suspense fallback={"<h1>Loading...</h1>"}>
             <Model/>
         </Suspense>
