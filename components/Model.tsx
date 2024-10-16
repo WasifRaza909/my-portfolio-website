@@ -23,8 +23,8 @@ const Model = () => {
     return (
             <group
                 ref={groupRef}
-                scale={[0.42, 0.42, 0.42]}
-                rotation={[0,0, 0]}
+                scale={[0.43, 0.43, 0.43]}
+                rotation={[0,-1.6, 0]}
                 position={[0, 0, 0]}
             >
                          <Center>

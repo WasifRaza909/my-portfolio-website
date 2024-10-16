@@ -78,8 +78,8 @@ const heroSection = () => {
               <button className="btn-outlined">Download CV</button>
             </div>
           </div>
-          <div className="hero--main--flex--right max-w-[42.9%] w-full flex-[0_0_42.9%]">
-            <div className="hero--main--flex--right--container rounded-[4rem] yellow-bg w-full h-[25.8rem]">
+          <div className="hero--main--flex--right w-full ">
+            <div className="hero--main--flex--right--container rounded-[4rem]  w-full h-[25.8rem]">
               <Scene />
             </div>
           </div>
