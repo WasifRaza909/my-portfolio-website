@@ -60,13 +60,13 @@ background-color: var(--dark-blue-color)  ;
 }
 
 .btn-filled {
-  @apply transition-all duration-[0.35s] bg-[var(--yellow-color)] px-[3.5rem] py-[0.75rem] text-[var(--dark-color)] text-[1.375rem] tracking-[1px] font-semibold rounded-[0.5rem] border-[1px] border-[transparent];
+  @apply transition-all duration-[0.35s] bg-[var(--yellow-color)] px-[3.5rem] py-[0.75rem] text-[var(--dark-color)] text-[1.375rem] tracking-[0.25px] font-semibold rounded-[0.5rem] border-[1px] border-[transparent];
 }
 .btn-filled:hover {
   @apply bg-[transparent] text-[var(--yellow-color)] border-[var(--yellow-color)];
 }
 .btn-outlined {
-  @apply transition-all duration-[0.35s] bg-[transparent] px-[3.5rem] py-[0.75rem] text-[var(--yellow-color)] border-[1px] border-[var(--yellow-color)] text-[1.375rem] tracking-[1px] font-semibold rounded-[0.5rem];
+  @apply transition-all duration-[0.35s] bg-[transparent] px-[3.5rem] py-[0.75rem] text-[var(--yellow-color)] border-[1px] border-[var(--yellow-color)] text-[1.375rem] tracking-[0.25px] font-semibold rounded-[0.5rem];
 }
 .btn-outlined:hover {
   @apply bg-[var(--yellow-color)] text-[var(--dark-color)];
